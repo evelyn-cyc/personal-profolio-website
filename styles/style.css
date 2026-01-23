@@ -13,21 +13,40 @@ h6 {
   font-weight: normal;
 }
 
-body header nav {
+body nav {
   background-color: white;
 }
-body header nav ul {
+body nav ul {
   display: flex;
 }
-body header nav ul li {
+body nav ul li {
   list-style-type: none;
   margin: 1rem;
 }
-body header nav ul li a {
+body nav ul li a {
   color: black;
   text-decoration: none;
   transition: all 0.1s ease;
 }
-body header nav ul li a:hover {
+body nav ul li a:hover {
   color: rgb(54, 212, 138);
+}
+body section.main-area {
+  background-color: white;
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body section.main-area div.info {
+  flex-basis: 450px;
+  border: 2px solid black;
+}
+body section.main-area div.image-area {
+  flex-basis: 450px;
+  border: 2px solid black;
+}
+body section.main-area div.image-area img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
