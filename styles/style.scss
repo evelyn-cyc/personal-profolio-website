@@ -185,3 +185,34 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    main {
+      section.about-me {
+        section.description {
+          width: 80%;
+        }
+      }
+
+      section.resume {
+        div.greenRect,
+        div.greenRect2,
+        div.greenRect3 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    nav {
+      position: static;
+      ul {
+        flex-direction: column;
+      }
+    }
+  }
+}
