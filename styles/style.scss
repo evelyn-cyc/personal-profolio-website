@@ -113,7 +113,7 @@ body {
 
     section.table {
       //border: 2px solid black;
-      flex: 5 1 550px;
+      flex: 5 0 550px;
       padding: 2rem;
       --bs-table-bg: none; // (herit from the bootstrap) find this in the inspection in web
 
@@ -196,6 +196,8 @@ body {
       }
 
       section.resume {
+        overflow-x: auto;
+
         div.greenRect,
         div.greenRect2,
         div.greenRect3 {

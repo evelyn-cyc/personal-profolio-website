@@ -93,7 +93,7 @@ body section.resume {
   padding: 2rem;
 }
 body section.resume section.table {
-  flex: 5 1 550px;
+  flex: 5 0 550px;
   padding: 2rem;
   --bs-table-bg: none;
 }
@@ -157,6 +157,9 @@ body section.resume section.picture div.greenRect3 {
 @media screen and (max-width: 800px) {
   body main section.about-me section.description {
     width: 80%;
+  }
+  body main section.resume {
+    overflow-x: auto;
   }
   body main section.resume div.greenRect,
   body main section.resume div.greenRect2,
